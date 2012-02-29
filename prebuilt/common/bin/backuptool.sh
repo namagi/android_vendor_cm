@@ -98,6 +98,7 @@ app/OneTimeInitializer.apk
 app/NetworkLocation.apk
 app/GooglePartnerSetup.apk
 app/Phonesky.apk
+app/VoiceSearch.apk
 etc/hosts
 etc/custom_backup_list.txt
 etc/force_backuptool
