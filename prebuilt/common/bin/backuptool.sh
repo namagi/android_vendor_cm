@@ -71,9 +71,6 @@ etc/permissions/features.xml
 app/MediaUploader.apk
 app/GoogleFeedback.apk
 app/GoogleTTS.apk
-app/CalendarProvider.apk
-app/GoogleCalendar.apk app/Calendar.apk
-app/GoogleLatinIME.apk app/LatinIME.apk
 app/MarketUpdater.apk
 app/GoogleServicesFramework.apk
 app/YouTube.apk
