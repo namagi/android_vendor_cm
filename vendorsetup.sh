@@ -1,10 +1,13 @@
 add_lunch_combo cm_crespo-userdebug
 add_lunch_combo cm_crespo4g-userdebug
 add_lunch_combo cm_epicmtd-userdebug
+add_lunch_combo cm_galaxys2-userdebug
 add_lunch_combo cm_maguro-userdebug
 add_lunch_combo cm_p4tmo-userdebug
 add_lunch_combo cm_p4vzw-userdebug
 add_lunch_combo cm_p4wifi-userdebug
+add_lunch_combo cm_p5-userdebug
+add_lunch_combo cm_p5wifi-userdebug
 add_lunch_combo cm_p920-userdebug
 add_lunch_combo cm_p970-userdebug
 add_lunch_combo cm_p990-userdebug
@@ -14,5 +17,7 @@ add_lunch_combo cm_shooter-userdebug
 add_lunch_combo cm_shooteru-userdebug
 add_lunch_combo cm_smb_a1011-userdebug
 add_lunch_combo cm_tenderloin-userdebug
+add_lunch_combo cm_tf101-userdebug
+add_lunch_combo cm_tf201-userdebug
 add_lunch_combo cm_toro-userdebug
 add_lunch_combo cm_wingray-userdebug

@@ -85,7 +85,7 @@ app/Talk.apk
 app/Maps.apk
 app/GooglePackageVerifier.apk
 app/GoogleBackupTransport.apk
-app/GalleryGoogle.apk app/Gallery.apk
+app/GalleryGoogle.apk app/Gallery2.apk
 app/FaceLock.apk
 app/Vending.apk
 app/GoogleContactsSyncAdapter.apk
