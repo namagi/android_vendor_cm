@@ -25,7 +25,8 @@ PRODUCT_COPY_FILES += \
     vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
 
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
+    vendor/cm/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/cm/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions
 
 # init.d support
 PRODUCT_COPY_FILES += \
