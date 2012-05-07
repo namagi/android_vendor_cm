@@ -73,6 +73,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/mkshrc:system/etc/mkshrc
 
+# T-Mobile theme engine
+include vendor/cm/config/themes_common.mk
+
 # Required CM packages
 PRODUCT_PACKAGES += \
     Camera \
@@ -103,7 +106,8 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     DSPManager \
     libcyanogen-dsp \
-    audio_effects.conf
+    audio_effects.conf \
+    CMWallpapers
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
