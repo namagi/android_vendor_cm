@@ -13,6 +13,8 @@ add_lunch_combo cm_haida-userdebug
 add_lunch_combo cm_hallon-userdebug
 add_lunch_combo cm_hercules-userdebug
 add_lunch_combo cm_i777-userdebug
+add_lunch_combo cm_i9100g-userdebug
+add_lunch_combo cm_i9300-userdebug
 add_lunch_combo cm_iyokan-userdebug
 add_lunch_combo cm_mango-userdebug
 add_lunch_combo cm_maguro-userdebug
@@ -35,6 +37,7 @@ add_lunch_combo cm_shooteru-userdebug
 add_lunch_combo cm_skyrocket-userdebug
 add_lunch_combo cm_smb_a1011-userdebug
 add_lunch_combo cm_smultron-userdebug
+add_lunch_combo cm_stingray-userdebug
 add_lunch_combo cm_tenderloin-userdebug
 add_lunch_combo cm_tf101-userdebug
 add_lunch_combo cm_tf201-userdebug
@@ -45,3 +48,4 @@ add_lunch_combo cm_urushi-userdebug
 add_lunch_combo cm_vibrantmtd-userdebug
 add_lunch_combo cm_wingray-userdebug
 add_lunch_combo cm_zeus-userdebug
+add_lunch_combo cm_zeusc-userdebug
