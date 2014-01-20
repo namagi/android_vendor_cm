@@ -18,7 +18,7 @@ else
 fi
 
 set -e
-QUIET=1
+QUIET=0
 BASE=`pwd`
 BRUTECRUSH="-brute"
 TMPDIR=/tmp/opticharge-$$
@@ -47,7 +47,14 @@ then
     echo "Invalid path to apkcerts.txt, set APKCERTS to the correct path."
 fi
 
-if [ "$(which pngcrush)" != "" ];
+if [ "$(which pngquant)" != "" ];
+then
+    optimize_png () {
+        echo "BEGIN Optimizing png: ${1}"
+        pngquant --ext ".png" -f $1 && pngquant --ext ".png" -f $1 && pngout $1 -c6 -f5 -b128 -v && pngcrush ${BRUTECRUSH} $1 ${1}.out && mv ${1}.out ${1} && optipng -o7 $1
+        echo "END Optimizing png: ${1}"
+    }
+elif [ "$(which pngcrush)" != "" ];
 then
     optimize_png () {
         pngcrush -q ${BRUTECRUSH} $1 ${1}.out 1> /dev/null 2> /dev/null
